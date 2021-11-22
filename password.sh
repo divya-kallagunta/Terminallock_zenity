@@ -2,11 +2,10 @@
 echo -n "Enter password:"
 read -s password
 echo
-if [[ $password == "ramya" ]]
+if [[ $password == "divya" ]]
 then
-figlet "welcome"
-echo
-figlet "            ramya"
+figlet "welcome divya"
+
 else
 figlet "who are you"
 sleep 3
